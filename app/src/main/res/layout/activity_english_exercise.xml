@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_8A9A5B">
+
+    <include
+        layout="@layout/element_toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_14dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSubmit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/flchk1"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimen_80dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/chk1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+            </FrameLayout>
+
+
+            <ImageView
+                android:id="@+id/iv1"
+                android:layout_width="@dimen/dimen_80dp"
+                android:layout_height="@dimen/dimen_80dp"
+                android:layout_marginStart="@dimen/dimen_8dp"
+                android:src="@drawable/elephent"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintStart_toEndOf="@+id/flchk1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimen_80dp"
+                android:gravity="center"
+                android:text="@string/starts_with"
+                android:textAppearance="@style/CustomTextAppearance.Book"
+                android:textColor="@color/color_000000"
+                android:textSize="@dimen/font_16sp"
+                app:layout_constraintEnd_toStartOf="@+id/fl1"
+                app:layout_constraintStart_toEndOf="@+id/iv1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <FrameLayout
+                android:id="@+id/fl1"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimen_80dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/spinner1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:entries="@array/elephent_array" />
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:id="@+id/flchk2"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimen_80dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/flchk1">
+
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/chk2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/iv2"
+                android:layout_width="@dimen/dimen_80dp"
+                android:layout_height="@dimen/dimen_80dp"
+                android:layout_marginStart="@dimen/dimen_8dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:src="@drawable/factory"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintStart_toEndOf="@+id/flchk2"
+                app:layout_constraintTop_toBottomOf="@+id/iv1" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimen_80dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:gravity="center"
+                android:text="@string/starts_with"
+                android:textAppearance="@style/CustomTextAppearance.Book"
+                android:textColor="@color/color_000000"
+                android:textSize="@dimen/font_16sp"
+                app:layout_constraintEnd_toStartOf="@+id/fl2"
+                app:layout_constraintStart_toEndOf="@+id/iv2"
+                app:layout_constraintTop_toBottomOf="@+id/tv1" />
+
+            <FrameLayout
+                android:id="@+id/fl2"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimen_80dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fl1">
+
+                <Spinner
+                    android:id="@+id/spinner2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:entries="@array/factory_array" />
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:id="@+id/flchk3"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimen_80dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/flchk2">
+
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/chk3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/iv3"
+                android:layout_width="@dimen/dimen_80dp"
+                android:layout_height="@dimen/dimen_80dp"
+                android:layout_marginStart="@dimen/dimen_8dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:src="@drawable/magazine"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintStart_toEndOf="@+id/flchk3"
+                app:layout_constraintTop_toBottomOf="@+id/iv2" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimen_80dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:gravity="center"
+                android:text="@string/starts_with"
+                android:textAppearance="@style/CustomTextAppearance.Book"
+                android:textColor="@color/color_000000"
+                android:textSize="@dimen/font_16sp"
+                app:layout_constraintEnd_toStartOf="@+id/fl3"
+                app:layout_constraintStart_toEndOf="@+id/iv3"
+                app:layout_constraintTop_toBottomOf="@+id/tv2" />
+
+            <FrameLayout
+                android:id="@+id/fl3"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimen_80dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fl2">
+
+                <Spinner
+                    android:id="@+id/spinner3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:entries="@array/magazine_array" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/flchk4"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimen_80dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/flchk3">
+
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/chk4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/iv4"
+                android:layout_width="@dimen/dimen_80dp"
+                android:layout_height="@dimen/dimen_80dp"
+                android:layout_marginStart="@dimen/dimen_8dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:src="@drawable/piano"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintStart_toEndOf="@+id/flchk4"
+                app:layout_constraintTop_toBottomOf="@+id/iv3" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimen_80dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:gravity="center"
+                android:text="@string/starts_with"
+                android:textAppearance="@style/CustomTextAppearance.Book"
+                android:textColor="@color/color_000000"
+                android:textSize="@dimen/font_16sp"
+                app:layout_constraintEnd_toStartOf="@+id/fl4"
+                app:layout_constraintStart_toEndOf="@+id/iv4"
+                app:layout_constraintTop_toBottomOf="@+id/tv3" />
+
+            <FrameLayout
+                android:id="@+id/fl4"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimen_80dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fl3">
+
+                <Spinner
+                    android:id="@+id/spinner4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:entries="@array/piono_array" />
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:id="@+id/flchk5"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimen_80dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/flchk4">
+
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/chk5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/iv5"
+                android:layout_width="@dimen/dimen_80dp"
+                android:layout_height="@dimen/dimen_80dp"
+                android:layout_marginStart="@dimen/dimen_8dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:src="@drawable/x_ray_machine"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintStart_toEndOf="@+id/flchk5"
+                app:layout_constraintTop_toBottomOf="@+id/iv4" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimen_80dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:gravity="center"
+                android:text="@string/starts_with"
+                android:textAppearance="@style/CustomTextAppearance.Book"
+                android:textColor="@color/color_000000"
+                android:textSize="@dimen/font_16sp"
+                app:layout_constraintEnd_toStartOf="@+id/fl5"
+                app:layout_constraintStart_toEndOf="@+id/iv5"
+                app:layout_constraintTop_toBottomOf="@+id/tv4" />
+
+            <FrameLayout
+                android:id="@+id/fl5"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimen_80dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fl4">
+
+                <Spinner
+                    android:id="@+id/spinner5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:entries="@array/xray_array" />
+            </FrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonSubmit"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_60dp"
+        android:layout_marginBottom="@dimen/dimen_60dp"
+        android:background="@color/color_800080"
+        android:text="@string/submit"
+        android:textAppearance="@style/CustomTextAppearance.Book"
+        android:textColor="@color/color_FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

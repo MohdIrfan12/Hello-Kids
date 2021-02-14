@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mia.ysc">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".common.CommonApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.hru.HruActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ui.HomeActivity" />
+        <activity
+            android:name=".ui.videoplayer.VideoPlayerActivity"
+            android:screenOrientation="landscape" />
+
+        <activity android:name=".ui.english.EnglishActivity" />
+        <activity android:name=".ui.math.MathActivity" />
+        <activity android:name=".ui.generalscience.GsActivity" />
+        <activity android:name=".ui.spotthedifference.SpotTheDifferenceActivity" />
+        <activity android:name=".ui.english.exercise.EnglishExerciseActivity" />
+        <activity android:name=".ui.english.exercise.MathExerciseActivity" />
+        <activity android:name=".ui.english.exercise.GsExerciseActivity" />
+        <activity android:name=".ui.address.AddressActivity" />
+        <activity android:name=".ui.prizes.PrizeActivity" />
+
+    </application>
+
+</manifest>

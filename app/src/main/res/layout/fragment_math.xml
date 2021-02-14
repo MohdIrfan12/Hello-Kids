@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context=".ui.english.alphabets.EnglishAlphabetFragment">
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dimen_80dp"
+        android:gravity="center"
+        android:textAppearance="@style/CustomTextAppearance.Book"
+        android:textColor="@color/color_FFFFFF"
+        android:textSize="@dimen/font_16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/dimen_16dp"
+        android:gravity="center"
+        android:text="And"
+        android:textAppearance="@style/CustomTextAppearance.Book"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/font_16sp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/dimen_16dp"
+        android:gravity="center"
+        android:textAppearance="@style/CustomTextAppearance.Book"
+        android:textColor="@color/color_FFFFFF"
+        android:textSize="@dimen/font_16sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/dimen_16dp"
+        android:id="@+id/tvOperation"
+        android:gravity="center"
+         android:textAppearance="@style/CustomTextAppearance.Black"
+        android:textColor="@color/color_FF0000"
+        android:textSize="@dimen/font_26sp" />
+
+    <TextView
+        android:id="@+id/tvTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/dimen_16dp"
+        android:gravity="center"
+        android:textAppearance="@style/CustomTextAppearance.Book"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/font_16sp" />
+
+
+</LinearLayout>

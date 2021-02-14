@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_200dp" />
+
+        <TextView
+            android:id="@+id/tvFollowing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_14dp"
+            android:textAppearance="@style/CustomTextAppearance.Book"
+            android:textColor="@color/color_FF0000"
+            android:textSize="@dimen/font_16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_6dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.  "
+                android:textAppearance="@style/CustomTextAppearance.Book"
+                android:textColor="@color/color_FFFFFF"
+                android:textSize="@dimen/font_16sp" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/CustomTextAppearance.Book"
+                android:textColor="@color/color_FFFFFF"
+                android:textSize="@dimen/font_14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_6dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.  "
+                android:textAppearance="@style/CustomTextAppearance.Book"
+                android:textColor="@color/color_FFFFFF"
+                android:textSize="@dimen/font_16sp" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/CustomTextAppearance.Book"
+                android:textColor="@color/color_FFFFFF"
+                android:textSize="@dimen/font_14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_6dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.  "
+                android:textAppearance="@style/CustomTextAppearance.Book"
+                android:textColor="@color/color_FFFFFF"
+                android:textSize="@dimen/font_16sp" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/CustomTextAppearance.Book"
+                android:textColor="@color/color_FFFFFF"
+                android:textSize="@dimen/font_14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_6dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.  "
+                android:textAppearance="@style/CustomTextAppearance.Book"
+                android:textColor="@color/color_FFFFFF"
+                android:textSize="@dimen/font_16sp" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/CustomTextAppearance.Book"
+                android:textColor="@color/color_FFFFFF"
+                android:textSize="@dimen/font_14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_6dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5.  "
+                android:textAppearance="@style/CustomTextAppearance.Book"
+                android:textColor="@color/color_FFFFFF"
+                android:textSize="@dimen/font_16sp" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/CustomTextAppearance.Book"
+                android:textColor="@color/color_FFFFFF"
+                android:textSize="@dimen/font_14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_6dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6.  "
+                android:textAppearance="@style/CustomTextAppearance.Book"
+                android:textColor="@color/color_FFFFFF"
+                android:textSize="@dimen/font_16sp" />
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/CustomTextAppearance.Book"
+                android:textColor="@color/color_FFFFFF"
+                android:textSize="@dimen/font_14sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

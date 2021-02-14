@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <item-->
+<!--        android:id="@+id/menuAdddress"-->
+<!--        android:title="@string/address" />-->
+    <item
+        android:id="@+id/menuWatchVideo"
+        android:title="@string/watch_video" />
+
+    <item
+        android:id="@+id/prize_items"
+        android:title="@string/prize_items" />
+</menu>

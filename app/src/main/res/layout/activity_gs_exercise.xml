@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_CDCCCC"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/element_toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_14dp"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:layout_marginEnd="@dimen/dimen_14dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/are_plants_used_in_medicine"
+                    android:textAppearance="@style/CustomTextAppearance.Black"
+                    android:textColor="@color/color_800080"
+                    android:textSize="@dimen/font_20sp" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:id="@+id/RadioGroup1"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/rb11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/dimen_20dp"
+                        android:layout_marginTop="@dimen/dimen_10dp"
+                        android:text="  Yes"
+                        android:textColor="@color/color_000000"
+                        android:textSize="@dimen/font_16sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/dimen_20dp"
+                        android:layout_marginTop="@dimen/dimen_10dp"
+                        android:text="  No"
+                        android:textColor="@color/color_000000"
+                        android:textSize="@dimen/font_16sp" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_14dp"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:layout_marginEnd="@dimen/dimen_14dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/can_cows_sleep_while_standing"
+                    android:textAppearance="@style/CustomTextAppearance.Book"
+                    android:textColor="@color/color_FF0000"
+                    android:textSize="@dimen/font_20sp" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/rb21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/dimen_20dp"
+                        android:layout_marginTop="@dimen/dimen_10dp"
+                        android:text="  Yes"
+                        android:textColor="@color/color_000000"
+                        android:textSize="@dimen/font_16sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/dimen_20dp"
+                        android:layout_marginTop="@dimen/dimen_10dp"
+                        android:text="  No"
+                        android:textColor="@color/color_000000"
+                        android:textSize="@dimen/font_16sp" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_14dp"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:layout_marginEnd="@dimen/dimen_14dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/how_many_times_human_heart_beats_in_a_single_lifetime"
+                    android:textAppearance="@style/CustomTextAppearance.Black"
+                    android:textColor="@color/color_55BA6B"
+                    android:textSize="@dimen/font_20sp" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/rb41"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/dimen_20dp"
+                        android:layout_marginTop="@dimen/dimen_10dp"
+                        android:text="  40"
+                        android:textColor="@color/color_000000"
+                        android:textSize="@dimen/font_16sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb42"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/dimen_20dp"
+                        android:layout_marginTop="@dimen/dimen_10dp"
+                        android:text="  100"
+                        android:textColor="@color/color_000000"
+                        android:textSize="@dimen/font_16sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb43"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/dimen_20dp"
+                        android:layout_marginTop="@dimen/dimen_10dp"
+                        android:text="  1 billion"
+                        android:textColor="@color/color_000000"
+                        android:textSize="@dimen/font_16sp" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonSubmit"
+                android:layout_width="@dimen/dimen_200dp"
+                android:layout_height="@dimen/dimen_60dp"
+                android:layout_marginBottom="@dimen/dimen_60dp"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:background="@color/color_FF0000"
+                android:text="@string/submit"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="@style/CustomTextAppearance.Book"
+                android:textColor="@color/color_FFFFFF" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

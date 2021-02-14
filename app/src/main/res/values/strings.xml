@@ -1,0 +1,184 @@
+<resources>
+    <string name="app_name">Hello Kids</string>
+    <string name="text_network_call_failed">network call failed</string>
+    <string name="text_questions_list">Questions List</string>
+    <string name="text_questions_detail">Questions detail</string>
+
+    <string name="text_error_promt_title">Network error</string>
+    <string name="text_ok">OK</string>
+    <string name="text_retry">Retry</string>
+
+    <string name="text_permission_granted">Permisssion Granted</string>
+    <string name="text_permission_declined">Permission Declined</string>
+    <string name="text_permission_declined_and_can_not_ask_more">Permission declied and can\'t ask more.</string>
+    <string name="text_wrong_answer">Wrong answer.</string>
+
+    <string name="text_how_you_feeling">How you feeling Today…</string>
+    <string name="text_great">Great…</string>
+    <string name="text_tom_and_jerry">Here are tom and jerry for you…</string>
+
+    <string name="text_english">English</string>
+    <string name="text_math">Math</string>
+    <string name="text_es">General Science</string>
+    <string name="text_fun_activity">Fun activity</string>
+    <string name="text_std">Spot the difference</string>
+    <string name="text_exercise">Exercise</string>
+    <string name="text_address">Address</string>
+    <string name="text_prize">Prize</string>
+
+    <string name="text_welcome_message">You will receive chocolates and icecream on each section and exercise completion. So learn and play with us. We together will have so much fun.</string>
+    <string name="text_spot_the_difference_among">Spot the difference among left and right image.</string>
+
+    <string name="text_tv1_addition">Your mom gave 1 chocolate to you.</string>
+    <string name="text_tv2_addition">Dad also gave 1 chocolate to you.</string>
+    <string name="text_tv3_addition">Now, you have total 2 chocolate.</string>
+    <string name="text_play_addition">Your mom gave 1 chocolate to you. And your dad also gave 1 chocolate to you. Now, you have total 2 chocolate.</string>
+
+    <string name="text_tv1_subtraction">Your mom gave 2 chocolates to you.</string>
+    <string name="text_tv2_subtraction">You ate one.</string>
+    <string name="text_tvtotal_subtraction">You have 1 chocolate now.</string>
+    <string name="text_play_subs">Your mom gave 2 chocolates to you. Then you ate one. Now, you have only 1 chocolate.</string>
+
+    <string name="text_tv1_multiplication">Your mom gave 2 egg rolls to you.</string>
+    <string name="text_tv2_multiplication">Your dad then cut both rolls in half.</string>
+    <string name="text_tvtotal_multiplication">Now, you have 4 egg rolls.</string>
+    <string name="text_play_mul">Your mom gave 2 egg rolls to you. Then your dad cut both rolls in half. Now, you have 4 egg rolls.</string>
+
+    <string name="text_for">for</string>
+    <string name="text_play_apple">Repeat with me. A for apple</string>
+    <string name="text_repeate">Repeat with me</string>
+    <string name="text_a_for">A for apple</string>
+    <string name="text_b_for">B for boy</string>
+    <string name="text_c_for">C for cat</string>
+    <string name="text_d_for">D for dog</string>
+    <string name="text_e_for">E for elephent</string>
+    <string name="text_f_for">F for factory</string>
+    <string name="text_g_for">G for girl</string>
+    <string name="text_h_for">H for hat</string>
+    <string name="text_i_for">I for ice cube</string>
+    <string name="text_j_for">J for jet</string>
+    <string name="text_k_for">K for kite</string>
+    <string name="text_l_for">L for lemon</string>
+    <string name="text_m_for">M for magazine</string>
+    <string name="text_n_for">N for napkin</string>
+    <string name="text_o_for">O for owl</string>
+    <string name="text_p_for">P for piano</string>
+    <string name="text_q_for">Q for queen</string>
+    <string name="text_r_for">R for remote</string>
+    <string name="text_s_for">S for shirt</string>
+    <string name="text_t_for">T for teddy wear</string>
+    <string name="text_u_for">U for umbrella</string>
+    <string name="text_v_for">V for van</string>
+    <string name="text_w_for">W for window</string>
+    <string name="text_x_for">X for x-ray machine</string>
+    <string name="text_y_for">Y for yacht</string>
+    <string name="text_z_for">Z for zero</string>
+
+
+    <string name="text_some_important_points_about_plants">Few important points about plants are-</string>
+    <string name="text_important_points_plant_1">Plants are source of food for humans as well as other species.</string>
+    <string name="text_important_points_plant_2">The air we breath consists of 78% nitrogen and 21% oxygon. plants produce oxygon in atmosphere.</string>
+    <string name="text_important_points_plant_3">Plants provide many products for human use, such as firewood, timber, fibers, medicines, dyes, pesticides, oils, and rubber.</string>
+    <string name="text_important_points_plant_4">Plants create habitats for many organisms. A single tree may provide food and shelter to many species of insects, worms, small mammals, birds, and reptiles.</string>
+    <string name="text_important_points_plant_5">Many herbs are used in medicine.</string>
+    <string name="text_important_points_plant_6">Many fragrances used in perfumes are actually plants scent.</string>
+    <string name="text_play_plant">Plants are source of food for humans as well as other species.The air we breath consists of 78% nitrogen and 21% oxygon. plants produce oxygon in atmosphere. Plants provide many products for human use, such as firewood, timber, fibers, medicines, dyes, pesticides, oils, and rubber. Plants create habitats for many organisms. A single tree may provide food and shelter to many species of insects, worms, small mammals, birds, and reptiles. Many herbs are used in medicine. Many fragrances used in perfumes are actually plants scent. </string>
+
+
+    <string name="text_some_important_points_about_animals">Some important points about animals are-</string>
+    <string name="text_important_points_animals_1">Animals have been source of food for humans from the beginning.</string>
+    <string name="text_important_points_animals_2">Animals eat plants as well as other animals.</string>
+    <string name="text_important_points_animals_3">Elephants have a specific alarm call that means “human”.</string>
+    <string name="text_important_points_animals_4">At birth, a panda is smaller than a mouse and weighs about four ounces.</string>
+    <string name="text_important_points_animals_5">Cows can sleep standing up, but they can only dream lying down.</string>
+    <string name="text_important_points_animals_6">One species of jellyfish is immortal. It can revert back to its child state after having become sexually mature, and therefore never dies.</string>
+    <string name="text_play_animal">Animals have been source of food for humans from the beginning. Animals eat plants as well as other animals. Elephants have a specific alarm call that means “human”. At birth, a panda is smaller than a mouse and weighs about four ounces. Cows can sleep standing up, but they can only dream lying down. One species of jellyfish is immortal. It can revert back to its child state after having become sexually mature, and therefore never dies.</string>
+
+    <string name="text_some_important_points_about_human_body">Few important facts about humon body-</string>
+    <string name="text_important_points_humanbody_1">Our mouth produces about one litre of saliva each day!.</string>
+    <string name="text_important_points_humanbody_2">Our brain is sometimes more active when we are asleep than when we are awake.</string>
+    <string name="text_important_points_humanbody_3">Our left lung is about 10 percent smaller than our right one.</string>
+    <string name="text_important_points_humanbody_4">Babies do not shed tears until they are at least one month old.</string>
+    <string name="text_important_points_humanbody_5">The human heart beats more than three billion times in an average lifespan.</string>
+    <string name="text_important_points_humanbody_6"> Human teeth are just as strong as shark teeth.</string>
+    <string name="text_play_humanbody">Our mouth produces about one litre of saliva each day!. Our brain is sometimes more active when we are asleep than when we are awake. Our left lung is about 10 percent smaller than our right one. Babies do not shed tears until they are at least one month old. The human heart beats more than three billion times in an average lifespan. Human teeth are just as strong as shark teeth.</string>
+
+    <string name="text_some_important_points_about_envirnment">Some important facts about envirnment-</string>
+    <string name="text_important_points_envirnment_1">The environment is the surrounding where we live and survive.</string>
+    <string name="text_important_points_envirnment_2">The environment comprises all the natural materials, living, non-living things.</string>
+    <string name="text_important_points_envirnment_3">A clean environment is essential for the existence of all living beings.</string>
+    <string name="text_important_points_envirnment_4">Everyone should give priority to the save the environment.</string>
+    <string name="text_important_points_envirnment_5">One should use the products that can recycle. Also, everyone should encourage others to do the same thing.</string>
+    <string name="text_important_points_envirnment_6">Everyone should believe that it is their duty to save plants and trees. Avoid using plastic to protect the environment.</string>
+    <string name="text_play_env">The environment is the surrounding where we live and survive. The environment comprises all the natural materials, living, non-living things. A clean environment is essential for the existence of all living beings. Everyone should give priority to the save the environment. One should use the products that can recycle. Also, everyone should encourage others to do the same thing. Everyone should believe that it is their duty to save plants and trees. Avoid using plastic to protect the environment.</string>
+    <string name="prize_items">Prize items</string>
+    <string name="exercise">Exercise</string>
+    <string name="address">Address</string>
+    <string name="watch_video">Watch Video</string>
+    <string name="starts_with">Starts with</string>
+    <string name="exercise_1">Exercise 1</string>
+    <string name="exercise_2">Exercise 2</string>
+    <string name="exercise_3">Exercise 3</string>
+    <string name="answer_is">Answer is</string>
+    <string name="are_plants_used_in_medicine">Are plants used in medicine?</string>
+    <string name="can_cows_sleep_while_standing">Can cows sleep while standing?</string>
+    <string name="how_many_times_human_heart_beats_in_a_single_lifetime">How many times human heart beats in a single lifetime?</string>
+    <string name="submit">Submit</string>
+    <string name="text_excercise_completion_msg">Congratulations for completing the exercise. We are delivering chocolates at your doorstep shortly.</string>
+
+    <string-array name="elephent_array">
+        <item>select</item>
+        <item>A</item>
+        <item>E</item>
+        <item>I</item>
+    </string-array>
+
+    <string-array name="factory_array">
+        <item>select</item>
+        <item>F</item>
+        <item>E</item>
+        <item>Z</item>
+    </string-array>
+
+    <string-array name="magazine_array">
+        <item>select</item>
+        <item>A</item>
+        <item>E</item>
+        <item>M</item>
+    </string-array>
+
+    <string-array name="piono_array">
+        <item>select</item>
+        <item>P</item>
+        <item>E</item>
+        <item>I</item>
+    </string-array>
+
+    <string-array name="xray_array">
+        <item>select</item>
+        <item>A</item>
+        <item>E</item>
+        <item>X</item>
+    </string-array>
+
+    <string-array name="addition">
+        <item>Select item</item>
+        <item>7</item>
+        <item>5</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="subtraction">
+        <item>Select item</item>
+        <item>2</item>
+        <item>7</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="multiplication">
+        <item>Select item</item>
+        <item>1</item>
+        <item>9</item>
+        <item>6</item>
+    </string-array>
+</resources>
